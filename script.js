@@ -6,6 +6,14 @@ hamburger.addEventListener("click", () => {
   sidebar.classList.toggle("active");
 });
 
+// ===== SUBMENU =====
+const subHamburger = document.getElementById("hamburger-sub");
+const sidebarSub = document.getElementById("sidebar-sub");
+
+subHamburger.addEventListener("click", () => {
+  sidebarSub.classList.toggle("active");
+});
+
 // Fecha menu clicando fora
 document.addEventListener("click", (e) => {
   if (!sidebar.contains(e.target) && !hamburger.contains(e.target)) {
