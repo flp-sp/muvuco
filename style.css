@@ -12,11 +12,15 @@ header {
     margin-left: 0;
     margin-right: 0;
     padding: 1%;
-    font-size: clamp(1.2rem, 2vw, 1.8rem);
-
-
+    font-size: 150%;
     color: white;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#logo
+{
+    width: 10%;
+    height: auto;
 }
 
 #payBt
@@ -167,7 +171,7 @@ a
 @media (max-width: 768px) {
     header {
         padding: 1.5rem 1rem;
-        font-size: clamp(1rem, 4vw, 1.3rem);
+        font-size: 100%;
         border-bottom-left-radius: 0.8cm;
         border-bottom-right-radius: 0.8cm;
     }
@@ -186,4 +190,9 @@ a
     {
         top: 45px;
     }
+    #logo
+    {
+    width: 40%;
+    height: auto;
+    }   
 }
