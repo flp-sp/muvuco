@@ -170,7 +170,7 @@ a
 
 @media (max-width: 768px) {
     header {
-        padding: 1.5rem 1rem;
+        padding: 1%;
         font-size: 100%;
         border-bottom-left-radius: 0.8cm;
         border-bottom-right-radius: 0.8cm;
